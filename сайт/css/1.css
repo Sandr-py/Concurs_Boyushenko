@@ -32,6 +32,23 @@ td {
     font-family: "RussoOne"; 
     src: url("../fonts/RussoOne/2.ttf");
    }
+
+.application{
+	outline: 2px dashed rgba(255,255,255,0.8);
+    outline-offset: -2px;  
+	word-wrap: break-word;
+	cursor: text;
+	border-radius: 10px;
+	background-color: #00BFFF;
+	width: 100%;
+	height: auto;
+	font-family: Arial;
+	text-align: center;
+	font-size: 1em;
+	text-shadow: 0px 0px 5px #8B0000;
+	color: #FFE4E1;
+
+}
 .logo{
 	cursor: pointer;
 	vertical-align: top;
@@ -83,7 +100,6 @@ td {
 	color: #FFE4E1;
 }
 .headder {
-	border
 	padding: 1%;	
 	margin: auto;
 	position: fixed;
@@ -98,13 +114,11 @@ td {
 	color: #FFE4E1;
 }
 .img{
-	align-self: right;
 	cursor: default;
 	width: 40%;
 	height:30%;
 }
 .rightpic{
-	top: 5px;
 	float: right;
 	margin: 1%;
 }

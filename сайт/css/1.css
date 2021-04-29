@@ -28,6 +28,10 @@ td {
 	width: all; 
     text-align: center; 
    }
+@font-face{
+	font-family: "Common";
+	src: url"../fonts/CommonText/2.ttf";
+}
 @font-face {
     font-family: "RussoOne"; 
     src: url("../fonts/RussoOne/2.ttf");
@@ -53,8 +57,8 @@ td {
 	cursor: pointer;
 	vertical-align: top;
 	float: center;
-	width:50px;
-	height: 50px; 
+	width:2em;
+	height: 2em; 
 }
 .context{
 	float: right;

@@ -20,11 +20,12 @@
 		</div>
 		<div style="padding: 40px; height: 100%"></div>
 			<div class="cont2">
+			<h3 style="padding: 1.5em 0 0 0; font-family: Common, Arial">Чем занимается "PitSpot"</h3>
 			<h5>Одним из приоритетных направлений в деятельности сервисного центра “PitSpot” является ремонт и диагностика автомобилей. Наличие современного автосервиса открывает широкие возможности для оперативного и квалифицированного ремонта автомобилей, а также их обслуживания. Мы работаем с любыми марками автомобилей, благодаря наличию широкого штата сотрудников и профессиональных специалистов.<p>Огромный опыт работы и использование самых передовых достижений в области ремонта и обслуживания автомобилей позволит не только качественно провести работу, но и выполнить в сжатые сроки даже самые сложные и кропотливые задачи. Кроме того, сотрудники гарантируют бесперебойную и отличную работу авто во время дальнейшей эксплуатации.</h5></p>
 			<div style="width: 100%; height: 1em;"></div>
 			<div>
 			<p><h1>В "PitSpot" вам предоставляются следующие услуги:</h1></p>
-			<h3 align="left"><ul><li><img src="img/icons/icon2.png">Покраска и полировка</li>
+			<h3 style=" font-family: Common, Arial" align="left"><ul><li><img src="img/icons/icon2.png">Покраска и полировка</li>
 				<li><img src="img/icons/icon3.png"style="width:1em ">Слесарный ремонт в автосервисе PitSpot</li>
 				<li><img src="img/icons/icon5.png"style="width:1em ">Техническое обслуживание в автосервисе PitSpot</li>
 				<li><img src="img/icons/icon4.png"style="width:1em ">Кузовной ремонт в автосервисе PitSpot</li>
@@ -32,18 +33,26 @@
 				<li><img src="img/icons/icon7.png" style="width:1em ">Шиномонтаж в автосервисе PitSpot</li></ul></h3>
 			</div>
 			<div class="application">
-			<h1> <p>Вы можете записаться на приём в один из наших сервисов On-Line</h1> 
+			<h2 style="font-family: RussoOne, Arial"> <p>Вы можете записаться на приём в один из наших сервисов On-Line</h2> 
 			<h5>Для этого заполните форму:</h5>
 		<form action="http://www.example.com/review.php" method="get">
 			<fieldset align="left">
 			 <legend style="font-family: RussoOne">Заявка</legend>
- 			 <label>Фамилия<input type="text" size="40" name="surname" maxlength="30"></label><p>
- 			 <label>Имя<input type="text" size="35" name="name" maxlength="20"></label><p>
- 			 <label>Отчество<input type="text" size="45" name="patronymic" maxlength=""></label><p>
-			<label>E-mail<input type="email" size="40"></label><p>
-			<label>Номер телефона<input type="tel" size="20" placeholder="8(xxx)-xxx-xx-xx"></label><p>
+			 <legend>Фамилия, Имя, Отчество (полностью)</legend>
+ 			 <label><input type="text" placeholder="Фамилия" size="35" name="surname" maxlength="30"></label><br/>
+ 			 <label><input type="text" placeholder="Имя" size="35" name="name" maxlength="20"></label><br/>
+ 			 <label><input type="text" size="45" placeholder="Отчество" name="patronymic" maxlength=""></label><br/>
+			<label>E-mail<input type="email" size="40"></label>
+			<select name="domain">
+				<option value="@mail.ru">@mail.ru</option>
+				<option value="@inbox.ru">@inbox.ru</option>
+				<option value="@list.ru">@list.ru</option>
+				<option value="@bk.ru">@bk.ru</option>
+				<option value="@internet.ru">@internet.ru</option>
+			</select><br/>
+			<label>Номер телефона<input type="tel" size="20" placeholder="8(xxx)-xxx-xx-xx"></label><br/>
 			<lable>Причина обращения<input type="text" maxlength="120" style="word-wrap: break-word; width: 70%; height: 5em">
-			</lable><p>
+			</lable><br/>
 			<legend>Марка машины</legend>
 			 <p>
           <label for="mark">

@@ -1,1 +1,3 @@
-alert("JavaScript подключён");
+if (true) {
+	
+}

@@ -1,6 +1,5 @@
 body{
 	margin: 0 auto;
-	background-attachment: fixed;
 	background-size: 100%;
 }
 a{
@@ -104,6 +103,7 @@ td {
 	color: #FFE4E1;
 }
 .headder {
+	border: 5px solid #8B0000;
 	padding: 1%;	
 	margin: auto;
 	position: fixed;
@@ -127,6 +127,17 @@ td {
 	margin: 1%;
 }
 .leftpic{
+	top: 1%;
+	padding: 5%;
 	float: left;
-	margin: 5%;
+	margin: 0%;
+}
+#buttonsub:hover{
+	background-color: #00FFFF;
+}
+.buttonsub{
+	font-family: Common, Arial;
+	border: 3px solid #B22222;
+	text-decoration: none;
+	color: #B22222 
 }

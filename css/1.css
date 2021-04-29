@@ -1,6 +1,5 @@
 body{
 	margin: 0 auto;
-	background-attachment: fixed;
 	background-size: 100%;
 }
 a{
@@ -28,16 +27,37 @@ td {
 	width: all; 
     text-align: center; 
    }
+@font-face{
+	font-family: "Common";
+	src: url"../fonts/CommonText/2.ttf";
+}
 @font-face {
     font-family: "RussoOne"; 
     src: url("../fonts/RussoOne/2.ttf");
    }
+
+.application{
+	outline: 2px dashed rgba(255,255,255,0.8);
+    outline-offset: -2px;  
+	word-wrap: break-word;
+	cursor: text;
+	border-radius: 10px;
+	background-color: #00BFFF;
+	width: 100%;
+	height: auto;
+	font-family: Arial;
+	text-align: center;
+	font-size: 1em;
+	text-shadow: 0px 0px 5px #8B0000;
+	color: #FFE4E1;
+
+}
 .logo{
 	cursor: pointer;
 	vertical-align: top;
 	float: center;
-	width:50px;
-	height: 50px; 
+	width:2em;
+	height: 2em; 
 }
 .context{
 	float: right;
@@ -51,7 +71,7 @@ td {
 	font-family: Arial;
 	text-align: center;
 	font-size: 30px;
-	text-shadow: 0px 0px 5px #006400;
+	text-shadow: 0px 0px 5px #8B0000;
 	color: #FFE4E1;
 }
 .cont2{
@@ -65,26 +85,25 @@ td {
 	font-family: Arial;
 	text-align: center;
 	font-size: 2em;
-	text-shadow: 0px 0px 5px #006400;
+	text-shadow: 0px 0px 5px #8B0000;
 	color: #FFE4E1;
 }
 .content{
 	float: left;
 	word-wrap: break-word;
-	font-family: ;
 	cursor: text;
 	border-radius: 10px;
 	background-color: #CD853F;
 	width: 79%;
 	height: auto;
 	font-family: Arial;
-	text-align: center;
+	text-align: left;
 	font-size: 2em;
-	text-shadow: 0px 0px 5px #006400;
+	text-shadow: 0px 0px 5px #8B0000;
 	color: #FFE4E1;
 }
 .headder {
-	border
+	border: 5px solid #8B0000;
 	padding: 1%;	
 	margin: auto;
 	position: fixed;
@@ -97,4 +116,26 @@ td {
 	font-size: 2em;
 	text-shadow: 0px 0px 20px #006400;
 	color: #FFE4E1;
+}
+.img{
+	cursor: default;
+	width: 40%;
+	height:30%;
+}
+.rightpic{
+	float: right;
+	margin: 1%;
+}
+.leftpic{
+	float: left;
+	margin: 1%;
+}
+#buttonsub:hover{
+	background-color: #00FFFF;
+}
+.buttonsub{
+	font-family: Common, Arial;
+	border: 3px solid #B22222;
+	text-decoration: none;
+	color: #B22222 
 }

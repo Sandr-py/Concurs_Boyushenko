@@ -127,8 +127,10 @@ td {
 	margin: 1%;
 }
 .leftpic{
+	top: 1%;
+	padding: 5%;
 	float: left;
-	margin: 1%;
+	margin: 0%;
 }
 #buttonsub:hover{
 	background-color: #00FFFF;
